@@ -1209,6 +1209,11 @@
   "resolved" "https://registry.npmjs.org/kareem/-/kareem-2.5.1.tgz"
   "version" "2.5.1"
 
+"loader@^2.1.1":
+  "integrity" "sha512-Z6nHbyKiECMexVUmpIAVXp+f+8okRtfiMAQ9j0eTtImCghxSqQwrbeSiAyCYKBnfvRlgXLdQt0tPuaZmcBQzpw=="
+  "resolved" "https://registry.npmjs.org/loader/-/loader-2.1.1.tgz"
+  "version" "2.1.1"
+
 "lodash@^4.17.21":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
