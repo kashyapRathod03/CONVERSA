@@ -146,7 +146,8 @@ wss.on('connection', (connection, req) => {
   // read username and id form the cookie for this connection
   const cookies = req.headers.cookie;
   if (cookies) {
-    const tokenCookieString = cookies.split(';').find(str => str.startsWith('token='));
+    console.log(cookies);
+    const tokenCookieString = cookies.split('; ').find(str => str.startsWith('token='));
     if (tokenCookieString) {
       const token = tokenCookieString.split('=')[1];
       if (token) {
@@ -198,3 +199,4 @@ wss.on('connection', (connection, req) => {
   // notify everyone about online people (when someone connects)
   notifyAboutOnlinePeople();
 });
+// Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
