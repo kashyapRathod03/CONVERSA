@@ -9,6 +9,7 @@ const User = require('./models/User');
 const Message = require('./models/Message');
 const ws = require('ws');
 const fs = require('fs');
+const PORT = process.env.PORT || 8000;
 
 dotenv.config();
 mongoose.set('strictQuery',false);
@@ -111,7 +112,7 @@ app.post('/register', async (req,res) => {
   }
 });
 
-const server = app.listen(8000,()=>{
+const server = app.listen(PORT,()=>{
   console.log('server strted:8000');
 });
 
